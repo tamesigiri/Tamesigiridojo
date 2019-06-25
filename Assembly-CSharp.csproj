@@ -65,6 +65,8 @@
     <Compile Include="Assets\JoyconLib_scripts\HIDapi.cs" />
     <Compile Include="Assets\JoyconLib_scripts\Joycon.cs" />
     <Compile Include="Assets\JoyconLib_scripts\JoyconManager.cs" />
+    <Compile Include="Assets\Script\Cutter.cs" />
+    <Compile Include="Assets\Script\Mashcut.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>C:/Users/sukemitsu/Documents/Tamesigiridojo/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
