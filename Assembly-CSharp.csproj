@@ -61,12 +61,60 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\BLINDED-AM-ME\Scripts\_2D\AdjustableQuad2D.cs" />
+    <Compile Include="Assets\BLINDED-AM-ME\Scripts\_2D\Parallax2D.cs" />
+    <Compile Include="Assets\BLINDED-AM-ME\Scripts\_2D\Spline2D.cs" />
+    <Compile Include="Assets\BLINDED-AM-ME\Scripts\_ApplicationComponents\ApplicationComponent_Manager.cs" />
+    <Compile Include="Assets\BLINDED-AM-ME\Scripts\_ApplicationComponents\SaveData_ApplicationComponent.cs" />
+    <Compile Include="Assets\BLINDED-AM-ME\Scripts\_ScriptHelper\SelectableSphereGizmo.cs" />
+    <Compile Include="Assets\BLINDED-AM-ME\Scripts\Electricity.cs" />
+    <Compile Include="Assets\BLINDED-AM-ME\Scripts\ExampleUseof_MeshColliderPeMaterial.cs" />
+    <Compile Include="Assets\BLINDED-AM-ME\Scripts\ExampleUseof_MeshCut.cs" />
+    <Compile Include="Assets\BLINDED-AM-ME\Scripts\ExampleUseof_Trajectory_Predicted_Path.cs" />
+    <Compile Include="Assets\BLINDED-AM-ME\Scripts\Math_Functions.cs" />
+    <Compile Include="Assets\BLINDED-AM-ME\Scripts\Mesh_Maker.cs" />
+    <Compile Include="Assets\BLINDED-AM-ME\Scripts\MeshColliderPerMaterial.cs" />
+    <Compile Include="Assets\BLINDED-AM-ME\Scripts\MeshCut.cs" />
+    <Compile Include="Assets\BLINDED-AM-ME\Scripts\ParticlePathFlow.cs" />
+    <Compile Include="Assets\BLINDED-AM-ME\Scripts\ParticlePathRectangle.cs" />
+    <Compile Include="Assets\BLINDED-AM-ME\Scripts\ParticleTexture.cs" />
+    <Compile Include="Assets\BLINDED-AM-ME\Scripts\Path_Comp.cs" />
+    <Compile Include="Assets\BLINDED-AM-ME\Scripts\PortalView.cs" />
+    <Compile Include="Assets\BLINDED-AM-ME\Scripts\SetDepthTextureMode.cs" />
+    <Compile Include="Assets\BLINDED-AM-ME\Scripts\Spline3D.cs" />
     <Compile Include="Assets\JoyconLib_scripts\Example.cs" />
     <Compile Include="Assets\JoyconLib_scripts\HIDapi.cs" />
     <Compile Include="Assets\JoyconLib_scripts\Joycon.cs" />
     <Compile Include="Assets\JoyconLib_scripts\JoyconManager.cs" />
     <Compile Include="Assets\Script\Cutter.cs" />
     <Compile Include="Assets\Script\Mashcut.cs" />
+    <None Include="Assets\BLINDED-AM-ME\Shaders\Dual_Textured_Specular.shader" />
+    <None Include="Assets\BLINDED-AM-ME\Shaders\Dual_Textured.shader" />
+    <None Include="Assets\BLINDED-AM-ME\Shaders\Dual_Textured_Bumbed_Specular.shader" />
+    <None Include="Assets\BLINDED-AM-ME\Shaders\Intersection_Texture_Rim_Bumped.shader" />
+    <None Include="Assets\BLINDED-AM-ME\Shaders\Dual_Transparent_Lightup.shader" />
+    <None Include="Assets\BLINDED-AM-ME\Shaders\Clip_Plane.shader" />
+    <None Include="Assets\BLINDED-AM-ME\Shaders\Diffuse_UnlitRimColor.shader" />
+    <None Include="Assets\BLINDED-AM-ME\Shaders\burnThrough.shader" />
+    <None Include="Assets\BLINDED-AM-ME\Shaders\Dual_Transparent.shader" />
+    <None Include="Assets\BLINDED-AM-ME\Shaders\DiffuseBumped_UnlitRimColorBumped.shader" />
+    <None Include="Assets\BLINDED-AM-ME\Shaders\Diffuse_Outline_Edges.shader" />
+    <None Include="Assets\BLINDED-AM-ME\Shaders\Clip_Box.shader" />
+    <None Include="Assets\BLINDED-AM-ME\Shaders\Dual_Transparent_Bumped.shader" />
+    <None Include="Assets\BLINDED-AM-ME\Shaders\Dual_Transparent_Bumped_Lightup.shader" />
+    <None Include="Assets\BLINDED-AM-ME\Shaders\Intersection_Texture_Rim.shader" />
+    <None Include="Assets\BLINDED-AM-ME\Shaders\CelShaded_ShadowDetails.shader" />
+    <None Include="Assets\BLINDED-AM-ME\Shaders\Portal.shader" />
+    <None Include="Assets\BLINDED-AM-ME\Shaders\Dual_Transparent_Specular.shader" />
+    <None Include="Assets\BLINDED-AM-ME\Shaders\Clip_Radius.shader" />
+    <None Include="Assets\BLINDED-AM-ME\Shaders\Intersection_Color.shader" />
+    <None Include="Assets\BLINDED-AM-ME\Shaders\Dual_Textured_Bumped_Lightup.shader" />
+    <None Include="Assets\BLINDED-AM-ME\Shaders\Intersection_Color_Rim_Bumped.shader" />
+    <None Include="Assets\BLINDED-AM-ME\Shaders\Dual_Textured_Lightup.shader" />
+    <None Include="Assets\BLINDED-AM-ME\Shaders\Intersection_Texture.shader" />
+    <None Include="Assets\BLINDED-AM-ME\Shaders\Dual_Transparent_Bumped_Specular.shader" />
+    <None Include="Assets\BLINDED-AM-ME\Shaders\Intersection_Color_Rim.shader" />
+    <None Include="Assets\BLINDED-AM-ME\Shaders\Dual_Textured_Bumbed.shader" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>C:/Users/sukemitsu/Documents/Tamesigiridojo/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
